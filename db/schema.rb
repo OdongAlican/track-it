@@ -12,7 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_201_001_082_614) do
+ActiveRecord::Schema.define(version: 20_201_001_212_206) do
   # These are extensions that must be enabled in order to support this database
   enable_extension 'plpgsql'
 
@@ -29,6 +29,14 @@ ActiveRecord::Schema.define(version: 20_201_001_082_614) do
     t.datetime 'created_at', precision: 6, null: false
     t.datetime 'updated_at', precision: 6, null: false
     t.index ['activity_id'], name: 'index_measurements_on_activity_id'
+  end
+
+  create_table 'users', force: :cascade do |t|
+    t.string 'username'
+    t.string 'password_digest'
+    t.integer 'age'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
   add_foreign_key 'measurements', 'activities'
