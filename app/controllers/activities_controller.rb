@@ -34,6 +34,6 @@ class ActivitiesController < ApplicationController
   end
 
   def activity_params
-    params.permit(:title, :total)
+    params.permit(:title, :total, :avatar)
   end
 end
