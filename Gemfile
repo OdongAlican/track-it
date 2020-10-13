@@ -18,7 +18,6 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rspec-mocks', '~> 3.9', '>= 3.9.1'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-gem 'knock'
 gem 'rubocop'
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -27,7 +26,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'carrierwave', '~> 2.1'
 gem 'cloudinary', '~> 1.18', '>= 1.18.1'
-gem 'fog-aws'
 gem 'jwt'
 gem 'rack-cors'
 
