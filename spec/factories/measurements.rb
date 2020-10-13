@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # spec/factories/items.rb
 FactoryBot.define do
   factory :measurement do

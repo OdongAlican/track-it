@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -21,6 +19,7 @@ gem 'rspec-mocks', '~> 3.9', '>= 3.9.1'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'knock'
+gem 'rubocop'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

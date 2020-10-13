@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class MeasurementsController < ApplicationController
   before_action :set_activity
   before_action :set_activity_measurement, only: %i[show update destroy]
