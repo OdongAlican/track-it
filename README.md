@@ -15,6 +15,10 @@ This project development was achieved using the following technologies:
 
 - [Live Link](https://trackingappk.herokuapp.com/)
 
+## Video Description 
+
+- [Description Link](https://www.loom.com/share/adf35c8e794d4a17b97ab95a35a834c0)
+
 
 ## Home Page of the Application
 ![screenshot](docs/Dashboard.png)
